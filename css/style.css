@@ -1,0 +1,90 @@
+/* Colors for website:
+background color: #F5EFE6 Font Color: #3E2723 Header/Footer Color: #6F4E37
+Header/Footer Text Color: #F5EFE6*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5EFE6;
+    margin: 0;
+    color: #3E2723;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+main{
+    margin: 50px;
+}
+
+h1, h2, h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.site_header{
+    background-color: #6F4E37;
+    color: #F5EFE6;
+    font-size: 15px;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin-top: -55px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a{
+    color: #F5EFE6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.slogan img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card{
+    display: inline-block;
+    width: 275px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #6F4E37;
+    border-radius: 10px;
+    vertical-align: top;
+    background-color: #FFF8F0;
+}
+
+.favorites{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #6F4E37;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #6F4E37;
+    color: #F5EFE6;
+    padding: 20px;
+    margin-top: 20px;
+}
